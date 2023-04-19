@@ -1,1 +1,1 @@
-# vinyl-db
+# vinyl-record-database
