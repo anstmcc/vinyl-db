@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Records</title>
+
+</head>
+
+<body>
+
+    <form action="push-artist.php" method="POST">
+        <h2>Add New Artist</h2>
+        <label for="artist"><strong>Artist:</strong> <input type="text" name="artist"></label><br>
+        <label for="group-members">Group Members: <input type="text" name="group-members"></label><br>
+        <input type="submit"><input type="reset">
+    </form>
+    <form action="push-record.php" method="POST">
+        <h2>Add New Record</h2>
+        <label for="record-id"><strong>Record ID: </strong><input type="text" name="record-id"></label><br>
+        <label for="title"><strong>Title: </strong><input type="text" name="title"></label><br>
+        <label for="artist-id"><strong>Artist ID: </strong><input type="text" name="artist-id"></label><br>
+        <label for="owner-id"><strong>Owner ID: </strong><input type="text" name="owner-id"></label><br>
+        <label for="date">Date Last Cleaned: </label>
+        <input type="date" id="date" name="date">
+        <label for="price">Price: <input type="text" name="price"></label><br>
+        <input type="submit"><input type="reset">
+    </form>
+</body>
+
+</html>
