@@ -18,4 +18,4 @@ Future Features
 I plan to transition this project from being PHP-based in a browser window to a Java-based GUI. Any tips regarding Java integration with my existing DB would be greatly appreciated.
 
 ## Bugs and Suggestions
-I'm definitely open to suggestions and want to know if anywhere that can be improved.
+I'm definitely open to suggestions and want to know of areas that can be improved.
